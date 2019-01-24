@@ -26,7 +26,7 @@ We'll need our oauth token to do this. Fortunately we already have this in our a
 
 ```erb
 # searches\search.html.erb
-<%= session[:token] %>
+<%= session[:token] %>  
 # ...
 ```
 
